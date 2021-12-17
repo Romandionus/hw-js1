@@ -11,7 +11,7 @@
 // let pricePerItem = 2000;
 
 // productName = "Repair droid";
-// pricePerItem = 3500; 
+// pricePerItem = 3500;
 
 // console.log(typeof productName);
 // console.log(typeof pricePerItem);
@@ -20,4 +20,128 @@
 
 // 3
 
+// const message = "JavaScript is awesome!";
+// alert(message);
 
+
+
+// const isComing = confirm("Please confirm hotel reservation");
+// console.log(isComing);
+
+// const hotelName = prompt("Please enter desired hotel name");
+// console.log(hotelName);
+
+// const value = prompt("Please enter a number!");
+// console.log(typeof value); // "string"
+// console.log(value); // "5"
+
+
+// const x = 10;
+// const y = 5;
+
+// // Сложение
+// console.log(x + y); // 15
+
+// // Вычитание
+// console.log(x - y); // 5
+
+// // Умножение
+// console.log(x * y); // 50
+
+// // Деление
+// console.log(x / y); // 2
+
+// // Остаток от деления
+// console.log(x % y); // 0
+
+// // Сложение с заменой (также есть для всех других операторов)
+// let value = 5;
+
+// // Аналогично записи value = value + 10;
+// value += 10;
+// console.log(value); // 15
+
+
+// Метод Number.parseInt() парсит из строки целое число.
+
+// console.log(Number.parseInt("5px")); // 5
+// console.log(Number.parseInt("12qwe74")); // 12
+// console.log(Number.parseInt("12.46qwe79")); // 12
+// console.log(Number.parseInt("qweqwe")); // NaN
+
+// Метод Number.parseFloat() парсит из строки дробное число.
+
+// console.log(Number.parseFloat("5px")); // 5
+// console.log(Number.parseFloat("12qwe74")); // 12
+// console.log(Number.parseFloat("12.46qwe79")); // 12.46
+// console.log(Number.parseFloat("qweqwe")); // NaN
+
+// const validNumber = Number("44"); // 44
+// console.log(Number.isNaN(validNumber)); // false
+
+// const invalidNumber = Number("sonic"); // NaN
+// console.log(Number.isNaN(invalidNumber)); // true
+
+// console.log(0.17 + 0.24); // 0.41000000000000003
+// console.log((0.17 * 100 + 0.24 * 100) / 100); // 0.41
+
+// console.log(0.17 + 0.24); // 0.41000000000000003
+// console.log((0.17 + 0.24).toFixed(4)); // 0.4100
+// console.log((0.24 + 0.17).toFixed(2)); // 0.41
+
+// // Math.floor(num) - возвращает наибольшее целое число,
+// // меньшее, либо равное указанному
+// console.log(Math.floor(1.7)); // 1
+
+// // Math.ceil(num) - возвращает наименьшее целое число,
+// // большее, либо равное указанному числу.
+// console.log(Math.ceil(1.2)); // 2
+
+// // Math.round(num) - возвращает значение числа,
+// // округлённое до ближайшего целого
+// console.log(Math.round(1.2)); // 1
+// console.log(Math.round(1.5)); // 2
+
+// // Math.max(num1, num2, ...) - возвращает наибольшее число из набора
+// console.log(Math.max(20, 10, 50, 40)); // 50
+
+// // Math.min(num1, num2, ...) - возвращает наименьшее число из набора
+// console.log(Math.min(20, 10, 50, 40)); // 10
+
+// // Math.pow(base, exponent) - возведение в степень
+// console.log(Math.pow(2, 4)); // 16
+
+// // Math.random() - возвращает псевдослучайное число в диапазоне [0, 1)
+// console.log(Math.random()); // случайное число между 0 и 1
+// console.log(Math.random() * (10 - 1) + 1); // псевдослучайное число от 1 до 10
+
+// const message = "Mango " + "is" + " happy";
+// console.log(message); // Mango is happy
+
+
+
+
+// const hours = 14;
+// const minutes = 26;
+// let timeString;
+
+// if (minutes === 0) {
+//     console.log("${hours} ч.");
+// }
+// else {
+//     console.log("${hours}ч. ${minutes} мин.")
+// }
+
+// const max = 100;
+// const min = 20;
+// for (; ;) {
+//     console.log(`Booom`);
+// }
+
+// Change code below this line
+const pricePerDroid = 800;
+let orderedQuantity = 6;
+const deliveryFee = 50;
+let totalPrice = (pricePerDroid * orderedQuantity) + deliveryFee;
+const message = `You ordered droids worth ${totalPrice} credits. Delivery (${deliveryFee} credits) is included in total price.`
+console.log(message);
