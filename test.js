@@ -205,18 +205,61 @@
 //   return message;
 // }
 
-function checkPassword(password) {
-  const ADMIN_PASSWORD = 'jqueryismyjam';
-  let message;
+// function checkPassword(password) {
+//   const ADMIN_PASSWORD = 'jqueryismyjam';
+//   let message;
 
-  if (null) { // Change this line
-      message = 'Canceled by user!';
-      
-//   } else if (password === ADMIN_PASSWORD) { // Change this line
-//     message = 'Welcome!';
-//   } else {
-//     message = 'Access denied, wrong password!';
-  }
+//   if (password = null) { // Change this line
+//     console.log('Canceled by user!');
+//   }
+//   else {
+//     console.log('Access denied, wrong password!');
+//   }
+// //   } else if (password === ADMIN_PASSWORD) { // Change this line
+// //     message = 'Welcome!';
+// //   } else {
+// //     message = 'Access denied, wrong password!';
+//   }
 
-  console.log(message);
-}
+//   console.log(message);
+// }
+
+// function isNumberInRange(start, end, number) {
+//   const isInRange = (number >= start && number <=end); // Change this line
+
+//   return isInRange;
+// }
+
+
+
+// function isNumberNotInRange(start, end, number) {
+//   const isInRange = number >= start && number <= end;
+//   const isNotInRange = !(number >= start && number <= end); // Change this line
+
+//   return isNotInRange;
+// }
+
+
+// function getDiscount(totalSpent) {
+//   const BASE_DISCOUNT = 0;
+//   const BRONZE_DISCOUNT = 0.02;
+//   const SILVER_DISCOUNT = 0.05;
+//   const GOLD_DISCOUNT = 0.1;
+//   let discount;
+//   // Change code below this line
+// if (totalSpent < 5000) 
+// discount = BASE_DISCOUNT
+
+// else if (totalSpent >= 5000 && totalSpent < 20000){
+//   discount = BRONZE_DISCOUNT
+// }
+// else if (totalSpent >= 20000 && totalSpent < 50000)
+// {
+//   discount = SILVER_DISCOUNT
+// }
+// else if (totalSpent >= 50000)
+// discount = GOLD_DISCOUNT
+
+//   // Change code above this line
+//   return discount;
+// }
