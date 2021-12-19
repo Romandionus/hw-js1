@@ -139,9 +139,84 @@
 // }
 
 // Change code below this line
-const pricePerDroid = 800;
-let orderedQuantity = 6;
-const deliveryFee = 50;
-let totalPrice = (pricePerDroid * orderedQuantity) + deliveryFee;
-const message = `You ordered droids worth ${totalPrice} credits. Delivery (${deliveryFee} credits) is included in total price.`
-console.log(message);
+// const pricePerDroid = 800;
+// let orderedQuantity = 6;
+// const deliveryFee = 50;
+// let totalPrice = (pricePerDroid * orderedQuantity) + deliveryFee;
+// const message = `You ordered droids worth ${totalPrice} credits. Delivery (${deliveryFee} credits) is included in total price.`
+// console.log(message);
+
+// Change code below this line
+// function add(a, b, c) {
+//   console.log(`Addition result equals ${a + b + c}`);
+  
+//   // Change code above this line
+// }
+
+// add(15, 27, 10);
+// add(10, 20, 30);
+// add(5, 10, 15);
+ 
+
+// function add(a, b, c) {
+//   // Change code below this line
+// return a + b + c;
+
+
+
+
+//   // Change code above this line
+// }
+
+// add(2, 5, 8); // 15
+
+// console.log(add(15, 27, 10));
+// console.log(add(10, 20, 30));
+// console.log(add(5, 10, 15));
+
+// function makeOrderMessage(orderedQuantity, pricePerDroid, deliveryFee) {
+//   // Change code below this line
+// let totalPrice = (orderedQuantity * pricePerDroid) + deliveryFee;
+// const message = `You ordered droids worth ${totalPrice} credits. Delivery (${deliveryFee} credits) is included in total price.`
+
+//   // Change code above this line
+//   return message;
+// }
+
+
+
+// function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
+//   let message;
+//   // Change code below this line
+//   const totalPrice = pricePerDroid * orderedQuantity;
+  
+// if (totalPrice > customerCredits) {
+//     message = `Insufficient funds!`;
+    
+//   }
+  
+// else {
+//     // мы должны отнять от наших кредитов общую стоимость и тогда будет работать
+// customerCredits -= totalPrice
+//     message = `You ordered ${orderedQuantity} droids, you have ${customerCredits} credits left`
+    
+//   }
+//   // Change code above this line
+//   return message;
+// }
+
+function checkPassword(password) {
+  const ADMIN_PASSWORD = 'jqueryismyjam';
+  let message;
+
+  if (null) { // Change this line
+      message = 'Canceled by user!';
+      
+//   } else if (password === ADMIN_PASSWORD) { // Change this line
+//     message = 'Welcome!';
+//   } else {
+//     message = 'Access denied, wrong password!';
+  }
+
+  console.log(message);
+}
