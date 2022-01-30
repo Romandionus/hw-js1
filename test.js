@@ -247,7 +247,7 @@
 //   const GOLD_DISCOUNT = 0.1;
 //   let discount;
 //   // Change code below this line
-// if (totalSpent < 5000) 
+// if (totalSpent < 5000)
 // discount = BASE_DISCOUNT
 
 // else if (totalSpent >= 5000 && totalSpent < 20000){
@@ -263,3 +263,85 @@
 //   // Change code above this line
 //   return discount;
 // }
+
+
+
+// function getSubscriptionPrice(type) {
+//   let price;
+//   // Change code below this line
+
+//  switch (type) { // Change this line
+//     case "starter": // Change this line
+//       price = 0; // Change this line
+//       break;
+
+//     case "professional": // Change this line
+//       price = 20; // Change this line
+//       break;
+
+//     case "organization": // Change this line
+//       price = 50; // Change this line
+//       break;
+//   }
+
+//   // Change code above this line
+//   return price;
+// }
+
+// function formatMessage("Nunc sed turpis a felis in nunc fringilla", 15) {
+//   let result;
+//   // Change code below this line
+// // if (message.length <= maxLength){
+// //   result = message;
+// // }
+// // else
+// //   result = message.slice(0, message.length) + "..."
+
+// //   /// Change code above this line
+// //   return result;
+//   console.log(result)
+
+//  }
+
+// const BRAND_NAME = "SAMSUNG";
+// const userInput = "saMsUng";
+// const normalizedToUpperCaseInput = userInput.toUpperCase();
+
+// console.log(userInput); // 'saMsUng'
+// console.log(userInput === BRAND_NAME); // false
+// console.log(normalizedToUpperCaseInput); // 'SAMSUNG'
+// console.log(normalizedToUpperCaseInput === BRAND_NAME); // true
+
+// //
+// function normalizeInput(input) {
+//   const normalizedInput = input.toLowerCase(); // Change this line
+
+//   return normalizedInput;
+// }
+
+// const productName = "Repair droid";
+
+// console.log(productName.includes("a")); // true
+// console.log(productName.includes("A")); // false
+// console.log(productName.includes("droid")); // true
+// console.log(productName.includes("Droid")); // false
+// console.log(productName.includes("Repair")); // true
+// console.log(productName.includes("repair")); // false
+// //
+
+// function checkForSpam(message) {
+//     let result;
+//     // Change code below this line
+
+//     if (
+//         message.toLowerCase().includes('spam') ||
+//         message.toLowerCase().includes('sale')
+//     ) {
+//         result = true;
+//     } else {
+//         result = false;
+//     }
+//     // Change code above this line
+//     return result;
+// }
+
